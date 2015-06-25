@@ -1,0 +1,3 @@
+[submodule "Assets/Editor/Lookback/mod-pbxproj"]
+	path = Assets/Editor/Lookback/mod-pbxproj
+	url = https://github.com/kronenthaler/mod-pbxproj.git
