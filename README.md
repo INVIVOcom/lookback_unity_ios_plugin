@@ -1,16 +1,15 @@
 # Lookback Unity Plugin for iOS
 A plugin for Unity3D that integrates the Lookback SDK into an iOS build.
 
+NOTE: This plugin is built for an old version of the SDK and needs update before it can be used. PRs appreciated.
+
 ## Installation
 1. Clone the contents of the repository to `<YOUR_PROJECT>/Assets/`
-2. Download the Lookback iOS SDK from https://lookback.io
+2. Download the Lookback iOS SDK from https://lookback.io/download
 3. Create a folder in `YOUR_PROJECT/Assets/` called Lookback_ObjC, and copy the contents of the Lookback iOS SDK zip to this folder.
 4. In Unity, find `Lookback_ObjC/lookback/HD/Lookback.framework` and `Lookback_ObjC/lookback/Safe/Lookback.framework`, and uncheck all of the boxes under 'Select platforms for plugin' in the Inspector
 
-## Note
-Within the app, you must set the Screen Capture mode to either 'Picard' or 'Kirk' - otherwise your recording of the Unity window will appear black.  This is a temporary workaround, as OpenGL is not officially supported by Lookback currently.
-
-To change the Capture Mode, open the feedback bubble and go to *Recordings > Settings > Developer > Screen Capture*
+NOTE: Lookback does no longer differentiate between "HD" and "Safe" so the above section may need update. OpenGL capture is currently fully supported in the primary SDK.
 
 ## Usage
 Initialize the plugin with:
